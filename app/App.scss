@@ -1,0 +1,8 @@
+@import "./scss/variables.scss";
+
+h1 {
+  color: $blue;
+  &:hover {
+    color: lighten($blue, 10);
+  }
+}
